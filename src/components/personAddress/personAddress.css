@@ -1,0 +1,136 @@
+
+body {
+    margin: 0;
+    height: 100%;
+    font-family: sans-serif;
+    background-color: #f7f7f7;
+}
+
+
+.form-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid green;
+    background: #ffffff;
+}
+
+.cross-icon {
+    border: solid 0px #42515f;
+    width: 50px;
+    height: 50px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.form-content {
+    min-height: calc(100% - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid green;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.form {
+    width: 60%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #2eb011;
+    border-radius: 8px;
+    opacity: 1;
+    margin-bottom: 50px;
+}
+
+.form-head {
+    flex-direction: row;
+    font: normal normal bold 24px/37px Roboto;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    width: 100%;
+    font-weight: 200;
+    text-transform: capitalize;
+    opacity: 1;
+    background-color: #008CFF;
+    text-align: center;
+    height: 50px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    padding-top: 10px;
+    border-radius: 8px;
+}
+
+.body {
+    padding: 25px;
+}
+
+    
+Select {
+    padding: 12px;
+    border: 1px solid#ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    background-color: transparent;
+    justify-content: space-between;
+    margin-right: 40px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .input-content {
+    width: 300px;
+    margin-right: 10px;
+    size-adjust:x-large;
+  }
+
+InputLabel{
+    size-adjust: x-large;
+  }
+
+  .add-reset {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  
+  .addButton {
+    font: normal normal normal 22px/29px Roboto;
+    letter-spacing: 0px;
+    color: #fff;
+    opacity: 1;
+    background: #1dc81a 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 18px;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .resetButton {
+    font: normal normal normal 22px/29px Roboto;
+    letter-spacing: 0px;
+    color: #fff;
+    opacity: 1;
+    background: #e90808 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 18px;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
