@@ -16,24 +16,13 @@ body {
     background: #ffffff;
 }
 
-.cross-icon {
-    border: solid 0px #42515f;
-    width: 50px;
-    height: 50px;
-}
-
-
-* {
-    box-sizing: border-box;
-}
-
 .form-content {
-    min-height: calc(100% - 80px);
-    display: flex;
-    justify-content: center;
+  justify-content: center;
     align-items: center;
+   min-height: calc(100% - 80px);
+    display: flex;
     border: 0px solid green;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; 
 }
 
 .form {
@@ -51,14 +40,14 @@ body {
     letter-spacing: 0.5px;
     color: #ffffff;
     width: 100%;
-    font-weight: 200;
+    font-weight: 20;
     text-transform: capitalize;
     opacity: 1;
     background-color: #008CFF;
     text-align: center;
-    height: 50px;
+    height: 70px;
     font-family: 'Quicksand', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     padding-top: 10px;
     border-radius: 8px;
 }
@@ -70,7 +59,7 @@ body {
     
 Select {
     padding: 12px;
-    border: 1px solid#ccc;
+    border: 1px solidrgb(51, 238, 18);
     border-radius: 4px;
     resize: vertical;
     font: normal normal normal 16px Roboto;
@@ -81,20 +70,24 @@ Select {
     margin-right: 40px;
     width: 100%;
     margin-bottom: 30px;
-}
+} 
 .row {
     display: flex;
     flex-direction: row;
     width: 100%;
   }
 
-  .input-content {
+   .input-content {
     width: 300px;
     margin-right: 10px;
-    size-adjust:x-large;
+  } 
+
+  .input-content1{
+    margin-top:8px;
+    width: 300px;
   }
 
-InputLabel{
+ InputLabel{
     size-adjust: x-large;
   }
 
